@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "무중단 배포 테스트";
+        return "무중단 배포 테스트 성공??";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
