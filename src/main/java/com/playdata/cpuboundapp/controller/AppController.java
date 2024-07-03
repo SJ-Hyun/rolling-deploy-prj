@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "kt cloud webhook test";
+        return "kt cloud webhook test2";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
