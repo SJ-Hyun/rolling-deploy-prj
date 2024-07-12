@@ -19,9 +19,9 @@ public class AppController {
         return input;
     }
 
-    //@RequestMapping("/hello")
+    @RequestMapping("/hello")
     public String hello() {
-        return "new-rollback";
+        return "롤백 없이 배포 완료";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
