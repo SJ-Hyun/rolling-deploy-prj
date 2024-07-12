@@ -19,7 +19,7 @@ public class AppController {
         return input;
     }
 
-    @RequestMapping("/hello")
+    //@RequestMapping("/hello")
     public String hello() {
         return "파이프라인 웹훅 테스트";
     }
