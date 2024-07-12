@@ -21,7 +21,7 @@ public class AppController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "new-rollback"
+        return "new-rollback";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
