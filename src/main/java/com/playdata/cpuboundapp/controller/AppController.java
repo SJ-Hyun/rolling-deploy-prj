@@ -19,9 +19,9 @@ public class AppController {
         return input;
     }
 
-    //@RequestMapping("/hello")
+    @RequestMapping("/hello")
     public String hello() {
-        return "파이프라인 웹훅 테스트";
+        return "new-rollback"
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
